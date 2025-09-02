@@ -1,0 +1,56 @@
+Part 1: SQL Fundamentals (20 Programs)
+​These programs focus on the basics of Structured Query Language (SQL) for data manipulation and retrieval.
+​Select & Filter Data: Write a query to display all columns and rows from a table.
+​Specific Column Selection: Retrieve only the name and salary columns from an employees table.
+​Filtering with WHERE: Find all employees whose salary is greater than $50,000.
+​String Matching: Find all employees whose name starts with the letter 'J'.
+​Sorting Data: Display a list of all products sorted by their price in descending order.
+​Counting Rows: Count the total number of employees in a department.
+​Finding Max/Min: Find the highest and lowest salary in the employees table.
+​Grouping Data: Calculate the average salary for each department.
+​Multiple Table Join: Join two tables (employees and departments) to get employee names and their corresponding department names.
+​Outer Join: Use a LEFT JOIN to list all departments and the employees in them, including departments with no employees.
+​Subqueries: Find the employee who has the highest salary in the company using a subquery.
+​Inserting Data: Insert a new record into a table.
+​Updating Data: Update the salary of a specific employee.
+​Deleting Data: Delete a record for an employee who has left the company.
+​Creating a Table: Write a CREATE TABLE statement for a new projects table.
+​Altering a Table: Add a new column to an existing table.
+​Dropping a Table: Delete a table from the database.
+​Using LIKE: Find all employees with a name containing the word 'smith'.
+​Aggregating with HAVING: List departments that have more than 10 employees.
+​Case Statement: Write a query to classify employees into salary groups (e.g., 'Low', 'Medium', 'High').
+​Part 2: PL/SQL Basics (15 Programs)
+​These programs introduce the procedural extension to SQL, PL/SQL, with its block structure and control statements.
+​Hello World: Write a basic PL/SQL block to print "Hello World".
+​Variable Declaration: Declare a variable and display its value.
+​Conditional Logic (IF-ELSE): Write a program to check if a number is positive, negative, or zero.
+​Looping with FOR: Use a FOR loop to print numbers from 1 to 10.
+​Looping with WHILE: Use a WHILE loop to find the sum of all odd numbers up to a given number.
+​Simple Procedure: Create a simple stored procedure that accepts an employee ID and displays their name and salary.
+​Function with Return Value: Create a function to calculate the total tax on a given salary.
+​Function to Get Data: Create a function that takes an employee ID and returns the employee's name.
+​Exception Handling: Write a block that handles the NO_DATA_FOUND exception.
+​Implicit Cursor: Write a PL/SQL block to update a single record using an UPDATE statement.
+​Explicit Cursor: Use an explicit cursor to retrieve and display the names of all employees from a table.
+​Cursor with Parameters: Create a cursor that accepts a department ID and fetches all employees from that department.
+​Record Type: Declare a record type and store an employee's data in it.
+​Using BULK COLLECT: Use BULK COLLECT to fetch multiple records into a collection for better performance.
+​Packages: Create a simple package that contains a procedure and a function.
+​Part 3: Intermediate to Advanced Topics (15 Programs)
+​This section covers more complex topics, including triggers, advanced data structures, and database management tasks.
+​Row-Level Trigger: Create a trigger that automatically updates the last_modified_date of a row whenever it is updated.
+​Statement-Level Trigger: Create a trigger that prevents a table from being updated on weekends.
+​Instead of Trigger: Write an INSTEAD OF trigger on a view to handle INSERT operations.
+​Simple Trigger: Create a trigger to log changes to the employees table into a separate audit table.
+​PL/SQL Table (Associative Array): Declare an associative array and store employee names with their IDs as keys.
+​Nested Table: Create a nested table type and use it to store a collection of phone numbers for a customer.
+​Varray: Define a Varray to store a fixed-size list of product ratings.
+​User-Defined Datatypes: Create a custom object type Address with attributes like street, city, and zip code.
+​Stored Procedure with OUT Parameter: Write a procedure that takes an employee ID and returns their name and salary using OUT parameters.
+​Dynamic SQL: Write a PL/SQL block that uses EXECUTE IMMEDIATE to run a dynamic query.
+​Error Logging: Create a procedure that logs specific application errors to an error table.
+​Sequence: Create and use a sequence to automatically generate unique IDs for a new table.
+​Materialized View: Create a materialized view to pre-compute and store a complex report.
+​User Management: Write a command to create a new user and grant them specific privileges to a table.
+​Transaction Control: Write a PL/SQL block that uses COMMIT and ROLLBACK to manage a transaction.
