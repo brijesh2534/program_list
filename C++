@@ -1,0 +1,42 @@
+Part 1: Fundamental Concepts (10 programs)
+​These programs reinforce basic C++ syntax, logic, and data structures before diving into OOP.
+​Simple Calculator: A program that takes two numbers and an operator (+, -, *, /) as input and performs the calculation.
+​Number Series: A program to generate and print the Fibonacci series up to N terms.
+​Prime Number Check: A program to check if a given number is prime or not.
+​String Palindrome: A program to check if a given string is a palindrome.
+​Array Sorting: A program to sort an array of integers in ascending order using Bubble Sort.
+​Matrix Addition: A program to add two matrices of the same size.
+​Factorial using Recursion: A program to find the factorial of a number using a recursive function.
+​Vowel Counter: A program that reads a string and counts the number of vowels in it.
+​Swap Numbers: A program to swap two numbers using call by value and call by reference functions.
+​Area of Shapes: A program to calculate the area of a circle, square, and rectangle using a single function with function overloading.
+​
+Part 2: Object-Oriented Programming (OOP) (15 programs)
+​This section is the core of the SY BCA curriculum and covers the main pillars of OOP.
+​Classes and Objects (5 programs)
+​Student Class: Create a Student class with data members (roll_no, name, marks) and member functions to input and display student details.
+​Bank Account Class: Create a BankAccount class. Include data members (account_number, balance) and member functions for deposit, withdraw, and display_balance.
+​Box Class with Constructors: Define a Box class with data members for length, width, and height. Use a parameterized constructor to initialize these values and a member function to calculate the volume.
+​Date Class: Create a Date class with data members for day, month, and year. Include a function to check if the date is valid.
+​Static Members: Design a class College with a static data member student_count to keep a count of all student objects created.
+​Operator Overloading (3 programs)
+​Overload + for Complex Numbers: Define a Complex class with real and imaginary parts. Overload the binary + operator to add two complex numbers.
+​Overload ++: Create a Counter class. Overload the unary pre-increment (++obj) and post-increment (obj++) operators.
+​Overload << and >>: Write a program to overload the insertion (<<) and extraction (>>) operators for a custom class like Point (with x, y coordinates).
+​Inheritance (4 programs)
+​Single Inheritance: Create a base class Employee and a derived class Manager to demonstrate single inheritance.
+​Multilevel Inheritance: Implement a class hierarchy: Person -> Employee -> Manager.
+​Multiple Inheritance: Use multiple inheritance to create a Faculty class that inherits from both Person and Teacher classes.
+​Virtual Base Class: Write a program to demonstrate a virtual base class to avoid ambiguity in multiple inheritance (e.g., Student class inheriting from Person via two paths).
+​Polymorphism (3 programs)
+​Function Overloading (different data types): Create an Adder class with an add function overloaded to add two integers, two floats, and two doubles.
+​Virtual Functions: Implement a base class Shape with a virtual function calculateArea(). Derive classes Circle and Rectangle and demonstrate runtime polymorphism using a base class pointer.
+​Abstract Class: Create an abstract base class Animal with a pure virtual function makeSound(). Derive classes Dog and Cat to implement this function.
+​
+Part 3: Advanced Applications (5 programs)
+​These projects require a combination of multiple OOP concepts and file handling.
+​Simple Student Management System: Create a system to add, display, search for, and delete student records. Use classes and objects to manage student data and file handling to store the records.
+​Library Management System: Develop a system to manage books and members. The system should allow for adding books, issuing books, returning books, and displaying a list of books.
+​Inventory Management System: Design a system for a store to manage products. Use a class to represent a Product and implement functions to add, modify, and search for products. Store data in a file.
+​Matrix Operations: Create a class Matrix that can perform matrix addition, subtraction, and multiplication. Use operator overloading for these operations.
+​Simple Phonebook Application: Build a console-based phonebook that allows users to add, view, search for, and delete contacts. Each contact should be an object of a Contact class, and data should be stored in a file.
